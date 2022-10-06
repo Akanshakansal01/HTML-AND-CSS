@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: white;
+}
+header{
+    padding:30px;
+   background-color: rgb(36, 13, 13);
+   color:white;
+}
+header span{
+    margin :10px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header .fa-solid{
+    color:skyblue;
+}
+header ul{
+    float:right;
+    list-style: none;
+}
+header ul li{
+    display:inline-block;
+    padding: 5px 20px;
+    transition: 0.2s;
+}
+header ul button{
+    
+    display:inline-block;
+    border-radius: 10px ;
+    font-size: 20px;
+    border-color: skyblue;
+    color: skyblue;
+    background-color: black;
+}
+header ul button:hover{
+    background-color: #29d9d5;
+    transition: 1s;
+    color:white;
+}
+header ul li a{
+   text-decoration: none; 
+   color:white;
+   text-align: center;
+}
+header ul li:nth-child(1)
+{
+    background-color: black;
+}
+header ul li a:hover{
+    color:rgb(136, 195, 240);
+}
+main .main{
+    padding: 20px;
+    margin:30px;
+    background-color: rgb(229, 218, 245);
+    border-radius: 30px ;
+}
+main div h2{
+    color: rgb(98, 26, 156);
+}
+main .images img{
+    width:400px;
+    height:250px;
+    border-radius:7px;
+    margin:10px;
+    display:inline-block;
+    padding: 0px;
+
+}
+main .images img:hover{
+    background-color: grey;
+
+}
+.contact{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRybJdVeFCLoSgRMog-TS3-o0an8ob9SO2GGg&usqp=CAU');
+    text-align: center;
+}
+.contact h3{
+    color:skyblue;
+    /* text-align: center; */
+    padding :20px;
+}
+.contact h2{
+    color: white;
+    font-size: 30px;
+    /* text-align: center; */
+}
+.contact p{
+    color:lightcyan;
+    /* text-align: center; */
+}
+.contact button{
+    border-color: skyblue;
+    color: skyblue;
+    background-color: rgb(57, 33, 239);
+    /* text-align: center; */
+    padding: 10px 30px;
+    cursor:pointer;
+    margin-top:15px ;
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
+.contact button:hover{
+    background-color: #29d9d5;
+    transition: 1s;
+    color:white;
+}
+ 
